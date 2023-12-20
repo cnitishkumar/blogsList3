@@ -5,15 +5,6 @@ import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
 
 import './index.css'
 
-// const blogData = {
-//   title: 'Blog Name',
-//   imageUrl: 'https://assets.ccbp.in/frontend/react-js/placeholder-3-img.png',
-//   avatarUrl: 'https://assets.ccbp.in/frontend/react-js/avatar-img.png',
-//   author: 'Author Name',
-//   content:
-//     'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-// }
-
 class BlogItemDetails extends Component {
   state = {blogData: {}, isLoading: true}
 
